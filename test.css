@@ -1,0 +1,66 @@
+h1{
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+  width: 400px;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+body{
+  background-image: url("https://img.quizur.com/f/img601c4047324380.40848635.jpg?lastEdited=1612464203");
+
+}
+
+.container{
+  position: relative;
+
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  background-color: rgba(108, 122, 137, 0.5);  
+}
+
+.container #qNumber .current-step{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.container #qNumber .step-marked{
+  background-color: rgba(191, 191, 191, 0.8);
+  color: black;
+  border: 2px solid white;
+}
+
+#qNumber li{
+  display: inline-block;
+  color: white;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border: 2px solid white;
+  text-align: center;
+  
+  
+  
+}
+ol{
+  text-align: center;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  background-color: black;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid white;
+}
+#answer{
+  text-align: center;
+}
