@@ -11,7 +11,7 @@ h1{
 
 body{
   background-image: url("https://img.quizur.com/f/img601c4047324380.40848635.jpg?lastEdited=1612464203");
-
+  font-family: "robotica", sans-serif;
 }
 
 .container{
@@ -63,4 +63,9 @@ h2{
 }
 #answer{
   text-align: center;
+}
+input{
+  margin: 5px;
+  font-size: 30px;
+  
 }
