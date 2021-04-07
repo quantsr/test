@@ -7,19 +7,33 @@ h1{
   padding: 10px;
   margin-right: auto;
   margin-left: auto; 
+  
+}
+
+@media (max-width: 992px){
+  h1{
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+  width: 400px;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto; 
+  margin-top: 30%;
+}
 }
 
 body{
   background-image: url("https://img.quizur.com/f/img601c4047324380.40848635.jpg?lastEdited=1612464203");
-  font-family: "robotica", sans-serif;
+  font-family: 'Trirong', serif; 
 }
 
 .container{
-  position: relative;
-
+  position: relative; 
   width: 80%;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto;  
   padding: 5px;
   background-color: rgba(108, 122, 137, 0.5);  
 }
@@ -29,6 +43,7 @@ body{
   color: black;
   border: 2px solid black;
 }
+
 .container #qNumber .step-marked{
   background-color: rgba(191, 191, 191, 0.8);
   color: black;
@@ -43,11 +58,9 @@ body{
   width: 40px;
   background-color: black;
   border: 2px solid white;
-  text-align: center;
-  
-  
-  
+  text-align: center;  
 }
+
 ol{
   text-align: center;
 }
@@ -60,12 +73,25 @@ h2{
   margin-right: auto;
   margin-left: auto;
   border: 1px solid white;
+  padding: 5px;
 }
+
 #answer{
   text-align: center;
+  margin-top: 50px;
 }
+
 input{
+  color: white;
+  background-color: black;
+  border: 2px solid white;
   margin: 5px;
-  font-size: 30px;
-  
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+input:hover{
+  background-color: gray;
+  color: black;
+  border: 2px solid black;
 }
