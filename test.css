@@ -59,6 +59,8 @@ body{
   background-color: black;
   border: 2px solid white;
   text-align: center;  
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 ol{
