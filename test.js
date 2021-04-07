@@ -6,7 +6,7 @@ var answerList =
       ["Se vinga", "Vida que segue e vai curtir", "Vai falar com ele"],
       ["Frieza", "Perfeccionismo", "Insegurança"],
       ["Leal", "Amorosa", "Calma"],
-      ["Azul", "Verde", "Laranga"],
+      ["Azul", "Verde", "Laranja"],
       ["Leão", "Cachorro", "Esquilo"],
       ["Ler", "Cantar", "Assistir séries ou filmes"],
       ["Aleatória", "Pop", "Só antigas"],
