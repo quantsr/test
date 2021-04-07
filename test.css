@@ -81,4 +81,17 @@ h2{
   margin-top: 50px;
 }
 
+input{
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  margin: 5px;
+  font-family: sans-serif;
+  font-size: 50px;
+}
 
+input:hover{
+  background-color: gray;
+  color: black;
+  border: 2px solid black;
+}
